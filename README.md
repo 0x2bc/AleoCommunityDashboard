@@ -164,6 +164,8 @@ curl -s --data-binary '{"jsonrpc": "2.0", "id":"documentation", "method": "getno
 ```
 sudo systemctl enable --now telegraf
 sudo systemctl is-enabled telegraf
+
+sudo systemctl restart telegraf
 systemctl status telegraf
 ```
 
