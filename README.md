@@ -5,8 +5,8 @@ For more information on Telegraf and Grafana see https://github.com/stakeconomy/
 Aleo Community Dashboard is available [here](http://194.163.131.85:3000/d/gbRwEaknz/aleo-community-dashboard?orgId=1&refresh=10sz)
 
 
-## Installation & Setup
-# 1. Installation of Telegraf
+# Installation & Setup
+## 1. Installation of Telegraf
 
 First of all, you need installed Aleo node. 
 Once you have the node on your server, proceed with the following instructions:
@@ -35,7 +35,7 @@ sudo cp /etc/telegraf/telegraf.conf /etc/telegraf/telegraf.conf.orig
 sudo rm -rf /etc/telegraf/telegraf.conf
 ```
 
-# 2. Telegraf configuration
+## 2. Telegraf configuration
 
 Add the configuration file /etc/telegraf/telegraf.conf based on the example below:
 
@@ -81,7 +81,7 @@ Change your hostname, mountpoints to monitor, location of the monitor script and
   data_type = "integer"
 ```
 
-# 3. Telegraf configuration
+## 3. Telegraf configuration
 
 ```
 git clone https://github.com/0x2bc/AleoCommunityDashboard/
