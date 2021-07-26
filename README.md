@@ -1,4 +1,4 @@
-This guide tells how to connect to [Aleo Community Dashboard] (http://194.163.131.85:3000/d/gbRwEaknz/aleo-community-dashboard?orgId=1&refresh=10sz)
+This guide tells how to connect to [Aleo Community Dashboard](http://194.163.131.85:3000/d/gbRwEaknz/aleo-community-dashboard?orgId=1&refresh=10sz)
 
 ![image](https://user-images.githubusercontent.com/2911961/126993070-944ba3b9-8233-48d3-9741-e634ac699ab9.png)
 
