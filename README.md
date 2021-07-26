@@ -45,6 +45,10 @@ sudo rm -rf /etc/telegraf/telegraf.conf
 
 Create file /etc/telegraf/telegraf.conf
 
+```
+touch /etc/telegraf/telegraf.conf
+```
+
 Change your hostname
 
 ```
