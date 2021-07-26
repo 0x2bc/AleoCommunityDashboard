@@ -1,5 +1,8 @@
 This guide tells how to connect to [Aleo Community Dashboard](http://194.163.131.85:3000/d/gbRwEaknz/aleo-community-dashboard?orgId=1&refresh=10sz)
 
+The guide is ONLY for those who run Aleo miners 
+
+
 ![image](https://user-images.githubusercontent.com/2911961/126993070-944ba3b9-8233-48d3-9741-e634ac699ab9.png)
 
 For more information on Telegraf and Grafana see https://github.com/stakeconomy/solanamonitoring/blob/main/README.md 
@@ -10,7 +13,15 @@ For more information on Telegraf and Grafana see https://github.com/stakeconomy/
 
 First of all, you need to have Aleo node [installed](https://nodes.guru/aleo/setup-guide/). 
 
-Once you have the node on your server, proceed with the following instructions:
+Check your node is healthy 
+
+4.1 Check your miner healty status (very thanks to (Nodes.Guru)[https://nodes.guru/aleo/setup-guide/] team for the script):
+
+```
+wget -O aleo_monitor.sh https://api.nodes.guru/aleo_monitor.sh && chmod +x aleo_monitor.sh && ./aleo_monitor.sh localhost
+```
+
+Once you have the miner on your server, proceed with the following instructions:
 
 ```
 # install telegraf
