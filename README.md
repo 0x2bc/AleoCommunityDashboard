@@ -149,5 +149,6 @@ systemctl status telegraf
 ## 4. Post-installation
 
 Now everything is ready. Check your node [here](http://194.163.131.85:3000/d/gbRwEaknz/aleo-community-dashboard?orgId=1&refresh=10sz)
+
 You need to find it by name in drop down menu at the top of a page
 
