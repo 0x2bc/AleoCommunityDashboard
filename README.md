@@ -13,7 +13,7 @@ For more information on Telegraf and Grafana see https://github.com/stakeconomy/
 
 First of all, you need to have Aleo node [installed](https://nodes.guru/aleo/setup-guide/). 
 
-Check your miner healt status (very thanks to (Nodes.Guru)[https://nodes.guru/aleo/setup-guide/] team for the script):
+Check your miner healt status (very thanks to [Nodes.Guru](https://nodes.guru/aleo/setup-guide/) team for the script):
 
 ```
 wget -O aleo_monitor.sh https://api.nodes.guru/aleo_monitor.sh && chmod +x aleo_monitor.sh && ./aleo_monitor.sh localhost
