@@ -49,7 +49,7 @@ Create file /etc/telegraf/telegraf.conf
 touch /etc/telegraf/telegraf.conf
 ```
 
-Change your hostname
+In file past the text below .  Change your hostname
 
 ```
 # Global Agent Configuration
