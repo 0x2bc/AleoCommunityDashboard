@@ -8,7 +8,8 @@ For more information on Telegraf and Grafana see https://github.com/stakeconomy/
 # Installation & Setup
 ## 1. Installation of Telegraf
 
-First of all, you need installed Aleo node. 
+First of all, you need to have Aleo node [installed](https://nodes.guru/aleo/setup-guide/en). 
+
 Once you have the node on your server, proceed with the following instructions:
 
 ```
