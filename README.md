@@ -96,6 +96,14 @@ Change your hostname
   data_type = "integer" # required
 ```
 
+
+Create folder (if you are a root user)
+
+```
+mkdir /root/aleoscipt
+cd /root/aleoscipt
+```
+
 Create bash scripts 
 
 ```
