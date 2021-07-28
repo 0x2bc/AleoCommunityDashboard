@@ -123,7 +123,6 @@ Create bash scripts
 touch /root/aleoscipt/getconnection.sh
 touch /root/aleoscipt/getheight.sh
 touch /root/aleoscipt/getmindeblocks.sh
-touch /root/aleoscipt/getversion.sh
 
 ```
 
@@ -133,7 +132,6 @@ Give them execution permission
 chmod +x /root/aleoscipt/getconnection.sh
 chmod +x /root/aleoscipt/getheight.sh
 chmod +x /root/aleoscipt/getmindeblocks.sh
-chmod +x /root/aleoscipt/getversion.sh 
 
 ```
 
@@ -177,21 +175,6 @@ Past following text in getmindeblocks.sh file
 #!/bin/bash
 
 curl -s --data-binary '{"jsonrpc": "2.0", "id":"documentation", "method": "getnodestats", "params": [] }' -H 'content-type: application/json' http://localhost:3030/ | jq '.[].misc?.blocks_mined?'
-
-```
-
-Edit getversion.sh
-
-```
-nano getversion.sh
-```
-
-Past following text in getversion.sh file
-
-```
-#!/bin/bash
-
-snarkos --help | grep -o '[0-9]*\.[0-9]*\.[0-9]*'
 
 ```
 
